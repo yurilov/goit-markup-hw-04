@@ -147,6 +147,20 @@ ul {
   padding-bottom: 60px;
   background-color: var(--footer-background-color);
 }
+
+.page-footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-cont {
+  margin-right: 70px;
+}
+
+.footer-join-list {
+  display: flex;
+}
+
 .page-footer .logo.link {
   display: block;
   margin-bottom: 20px;
@@ -164,6 +178,17 @@ ul {
 }
 
 .link.map {
+  color: var(--primary-white-color);
+}
+
+.footer-join-title {
+  margin-bottom: 20px;
+  /* padding-top: 12px; */
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
   color: var(--primary-white-color);
 }
 
@@ -256,8 +281,7 @@ ul {
   display: block;
 }
 
-.about-title,
-.team-title {
+.section-title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -308,6 +332,12 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+/* Постоянные клиенты */
+
+.clients-list {
+  display: flex;
 }
 
 /* Портфолио */
