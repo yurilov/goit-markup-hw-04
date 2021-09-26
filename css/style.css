@@ -138,8 +138,8 @@ ul {
   margin-right: 10px;
 }
 
-.cont-icon:hover,
-.cont-icon:focus {
+.cont-nav .link:hover .cont-icon,
+.cont-nav .link:focus .cont-icon {
   fill: var(--accent-color);
 }
 
@@ -424,8 +424,8 @@ ul {
   fill: var(--icon-color);
 }
 
-.social-icon:hover,
-.social-icon:focus {
+.team-social-link:hover .social-icon,
+.team-social-link:focus .social-icon {
   fill: var(--primary-white-color);
 }
 
@@ -454,8 +454,8 @@ ul {
   border: 1px solid var(--accent-color);
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: var(--accent-color);
 }
 
